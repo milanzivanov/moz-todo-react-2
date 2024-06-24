@@ -1,6 +1,8 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This todo app is from MDN documentation about React
+I used the first time GitHub Actions to deploy on the GitHub pages(deploying on netlify is much simpler)
 
 Currently, two official plugins are available:
 
