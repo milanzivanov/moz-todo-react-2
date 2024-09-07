@@ -21,9 +21,6 @@ function App({ dataTasks }) {
   const [tasks, setTasks] = useState(dataTasks);
   const [filter, setFilter] = useState("All");
 
-  // console.log(filter);
-  // console.log(tasks);
-
   // add task
   function addTask(name) {
     const newTask = { id: `todo-${nanoid()}`, name, completed: false };
@@ -47,7 +44,6 @@ function App({ dataTasks }) {
   // delete task
   function deleteTask(id) {
     setTasks(tasks.filter((t) => t.id !== id));
-    // console.log(id);
   }
 
   ////////////////////////
